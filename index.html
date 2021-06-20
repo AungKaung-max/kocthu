@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Convenience Store</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+</head>
+<body>
+		<div class="container mt-5">
+			<h1 class="text-info">Convenience Store</h1>
+		<form class="mt-4" method="post" action="insert.php">
+
+	  		<div class="mb-3">
+	   		<label for="name" class="form-label">Product Name</label>
+	    	<input type="text" class="form-control" id="name" name="name">
+	   		<div class="form-text">Please enter Product name.</div>
+	  		</div>
+
+	  		
+
+  			<input type="submit" class="btn btn-info text-white" value="Submit">
+		</form>
+
+		<div class="mt-3">
+			<form action="select.php">
+			<input type="submit" class="btn btn-info text-white" value="SelectData">
+			</form>
+		</div>
+		</div>
+
+
+</body>
+</html>
